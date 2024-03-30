@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-/*class dynamicArray
+class dynamicArray
 {
     private:
       int* lkd;
@@ -23,19 +23,19 @@ int main()
     dynamicArray yt(75);
     
     return 0;
-}*/
-int main() {
-    int size;
-    cout << "Enter size of array: ";
-    cin >> size;
-    
-    int* arr = new int[size]; // Dynamic allocation of memory for an array
-    
-    // Access elements of the array
-    for (int i = 0; i < size; ++i) {
-        arr[i] = i * 10;
-    }
-    
-    delete[] arr; // Release the dynamically allocated memory
-    return 0;
 }
+// int main() {
+//     int size;
+//     cout << "Enter size of array: ";
+//     cin >> size;
+    
+//     int* arr = new int[size]; // Dynamic allocation of memory for an array
+    
+//     // Access elements of the array
+//     for (int i = 0; i < size; ++i) {
+//         arr[i] = i * 10;
+//     }
+    
+//     delete[] arr; // Release the dynamically allocated memory
+//     return 0;
+// }
